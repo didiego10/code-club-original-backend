@@ -3,7 +3,9 @@ module.exports = {
     es2021: true,
     node: true
   },
-  extends: 'standard',
+  extends:
+    'standard',
+
   overrides: [
     {
       env: {
@@ -22,5 +24,6 @@ module.exports = {
     sourceType: 'module'
   },
   rules: {
+    camelcase: 'off'
   }
 }

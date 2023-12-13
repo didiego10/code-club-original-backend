@@ -26,15 +26,15 @@ module.exports = {
       admin: {
         type: Sequelize.BOOLEAN,
         defaultValue: false,
-        allowNull: false
+        allowNull: true
       },
-      ceated_at: {
+      created_at: {
         type: Sequelize.DATE,
-        allowNull: false
+        allowNull: true
       },
-      update_at: {
+      updated_at: {
         type: Sequelize.DATE,
-        allowNull: false
+        allowNull: true
       }
     })
   },
